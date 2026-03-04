@@ -2,6 +2,10 @@
 
 Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
+<div align="center">
+  <img src="images/introduction.png" width="1000px" />
+</div>
+
 ## Quick Start 
 
 ### 1. Install dependencies
