@@ -100,9 +100,6 @@ After that, please refer to `train_caption.py` (use '--evaluate') in [BLIP](http
     <img src="images/Table2.png" width="600px" />
 </div>
 
-<div align="left">
-    <img src="images/Fig2.png" width="600px" />
-</div>
 
 ### 3. Adversarial transferability on LVLMs
 
@@ -113,6 +110,21 @@ Then combine adversarial text prompts and adversarial image to send LVLMs.
 
 <div align="left">
     <img src="images/Table3.png" width="600px" />
+</div>
+
+
+## Visualization
+
+<div align="left">
+    <img src="images/IC_VG.png" width="600px" />
+</div>
+
+<div align="left">
+    <img src="images/adversarial example.png" width="600px" />
+</div>
+
+<div align="left">
+    <img src="images/AE_for_LVLM.png" width="600px" />
 </div>
 
 [//]: # (## Citation)
