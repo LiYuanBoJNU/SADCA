@@ -3,8 +3,18 @@
 Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
 <div align="center">
-  <img src="images/introduction.png" width="500px" />
+    <img src="images/introduction.png" width="600px" />
 </div>
+
+> *A comparison of our SADCA and existing frameworks. 
+> (a) and (b) illustrate the core concepts of SGA and SA-AET, respectively, where only one or two static interactions are performed between the visual and textual modalities, with the interactions being limited solely to positive pairs. 
+> (c) illustrates the core idea of the proposed SADCA, which continuously disrupts cross-modal interactions through dynamic contrastive interactions with both positive and negative pairs. 
+> Additionally, it leverages a semantic augmentation strategy to enrich the data samples, thereby diversifying the semantic information. 
+> The arrow represents the interaction between the visual and textual modalities. 
+> The dotted lines represent the generation of adversarial examples from the original examples. 
+> (d) demonstrate the effectiveness of the input transformation in enhancing the adversarial attack transferability. 
+> Furthermore, we observe that using large number of iterations (LI) to attack the image modality can further improve the attack performance.*
+
 
 ## Quick Start 
 
