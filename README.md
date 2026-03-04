@@ -3,7 +3,7 @@
 Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
 <div align="center">
-  <img src="images/introduction.png" width="1000px" />
+  <img src="images/introduction.png" width="500px" />
 </div>
 
 ## Quick Start 
