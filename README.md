@@ -33,7 +33,6 @@ Here is an example for Flickr30K dataset.
 ```bash
 python eval_SADCA.py --config ./configs/Retrieval_flickr.yaml \
 	--cuda_id 0 \
-	--model_list ['ALBEF','TCL','CLIP_ViT','CLIP_CNN'] \
 	--source_model CLIP_CNN \
 	--albef_ckpt ./checkpoints/albef_flickr.pth \
 	--tcl_ckpt ./checkpoints/tcl_flickr.pth \
@@ -48,7 +47,6 @@ Here is an example for MSCOCO dataset.
 ```bash
 python eval_AET.py --config ./configs/Retrieval_coco.yaml \
 	--cuda_id 0 \
-	--model_list ['ALBEF','TCL','CLIP_ViT','CLIP_CNN'] \
 	--source_model CLIP_CNN \
 	--albef_ckpt ./checkpoints/albef_coco.pth \
 	--tcl_ckpt ./checkpoints/tcl_coco.pth \

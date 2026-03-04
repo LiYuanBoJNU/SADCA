@@ -590,6 +590,7 @@ if __name__ == '__main__':
     parser.add_argument('--albef_ckpt', default='./checkpoints/albef_flickr.pth', type=str)
     parser.add_argument('--tcl_ckpt', default='./checkpoints/tcl_flickr.pth', type=str)
     parser.add_argument('--original_rank_index_path', default='./std_eval_idx/flickr30k/')
+    parser.add_argument('--scales', type=str, default='0.5,0.75,1.25,1.5')
 
     parser.add_argument('--result_file_path', default='./flickr30k_adv/result_SADCA.txt')
     parser.add_argument('--save_advimg_path', default='./flickr30k_adv/SADCA_CLIP_CNN/')
