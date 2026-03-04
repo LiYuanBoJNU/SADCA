@@ -97,7 +97,7 @@ After that, please refer to `train_caption.py` (use '--evaluate') in [BLIP](http
 **Main Results:**
 
 <div align="left">
-    <img src="images/Table2.png" width="600px" />
+    <img src="images/Table2.png" width="800px" />
 </div>
 
 
@@ -109,7 +109,7 @@ Then combine adversarial text prompts and adversarial image to send LVLMs.
 **Main Results:**
 
 <div align="left">
-    <img src="images/Table3.png" width="600px" />
+    <img src="images/Table3.png" width="800px" />
 </div>
 
 
