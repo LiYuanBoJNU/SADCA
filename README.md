@@ -62,8 +62,8 @@ Here is an example for MSCOCO dataset.
 python eval_SADCA.py --config ./configs/Retrieval_coco.yaml \
 	--cuda_id 0 \
 	--source_model CLIP_CNN \
-	--albef_ckpt ./checkpoints/albef_coco.pth \
-	--tcl_ckpt ./checkpoints/tcl_coco.pth \
+	--albef_ckpt ./checkpoints/albef_mscoco.pth \
+	--tcl_ckpt ./checkpoints/tcl_mscoco.pth \
 	--original_rank_index_path ./std_eval_idx/coco/ \
 	--result_file_path ./mscoco_adv/result_SADCA.txt \
 	--save_advimg_path ./mscoco_adv/SADCA_CLIP_CNN/ \
@@ -115,13 +115,19 @@ Then combine adversarial text prompts and adversarial image to send LVLMs.
 
 ## Visualization
 
-<div align="left">
-    <img src="images/IC_VG.png" width="600px" />
-</div>
+### 1. Visualization on Multimodal Dataset
 
 <div align="left">
     <img src="images/adversarial example.png" width="600px" />
 </div>
+
+### 2. Visualization on Image Captioning and Visual Grounding
+
+<div align="left">
+    <img src="images/IC_VG.png" width="600px" />
+</div>
+
+### 3. Visualization on LVLMs
 
 <div align="left">
     <img src="images/AE_for_LVLM.png" width="600px" />
