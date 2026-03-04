@@ -87,13 +87,21 @@ Employ the binary decision template **"Does the picture depict that 'adversarial
 Then combine adversarial text prompts and adversarial image to send LVLMs.
 
 
-## Citation
+[//]: # (## Citation)
 
-```
-@article{gao2024boosting,
-  title={Boosting Transferability in Vision-Language Attacks via Diversification along the Intersection Region of Adversarial Trajectory},
-  author={Gao, Sensen and Jia, Xiaojun and Ren, Xuhong and Tsang, Ivor and Guo, Qing},
-  journal={arXiv preprint arXiv:2403.12445},
-  year={2024}
-}
-```
+[//]: # ()
+[//]: # (```)
+
+[//]: # (@article{gao2024boosting,)
+
+[//]: # (  title={Boosting Transferability in Vision-Language Attacks via Diversification along the Intersection Region of Adversarial Trajectory},)
+
+[//]: # (  author={Gao, Sensen and Jia, Xiaojun and Ren, Xuhong and Tsang, Ivor and Guo, Qing},)
+
+[//]: # (  journal={arXiv preprint arXiv:2403.12445},)
+
+[//]: # (  year={2024})
+
+[//]: # (})
+
+[//]: # (```)
