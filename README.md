@@ -1,6 +1,6 @@
-# SADCA [CVPR 2026]
+# Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
-Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
+This repository is the official implementation of *Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction*.
 
 <div align="center">
     <img src="images/introduction.png" width="600px" />
