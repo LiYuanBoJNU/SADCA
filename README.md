@@ -59,7 +59,7 @@ python eval_SADCA.py --config ./configs/Retrieval_flickr.yaml \
 Here is an example for MSCOCO dataset.
 
 ```bash
-python eval_AET.py --config ./configs/Retrieval_coco.yaml \
+python eval_SADCA.py --config ./configs/Retrieval_coco.yaml \
 	--cuda_id 0 \
 	--source_model CLIP_CNN \
 	--albef_ckpt ./checkpoints/albef_coco.pth \
@@ -70,7 +70,11 @@ python eval_AET.py --config ./configs/Retrieval_coco.yaml \
 	--save_advimg_caption_path ./mscoco_adv/SADCA_CLIP_CNN.json
 ```
 
+**Main Results:**
 
+<div align="left">
+    <img src="images/Table1.png" width="600px" />
+</div>
 
 
 
@@ -92,12 +96,24 @@ After that, please refer to `train_caption.py` (use '--evaluate') in [BLIP](http
 
 **Main Results:**
 
+<div align="left">
+    <img src="images/Table2.png" width="600px" />
+</div>
+
+<div align="left">
+    <img src="images/Fig2.png" width="600px" />
+</div>
 
 ### 3. Adversarial transferability on LVLMs
 
 Employ the binary decision template **"Does the picture depict that 'adversarial text'? Only answer Yes or No."** to construct adversarial text prompts.
 Then combine adversarial text prompts and adversarial image to send LVLMs.
 
+**Main Results:**
+
+<div align="left">
+    <img src="images/Table3.png" width="600px" />
+</div>
 
 [//]: # (## Citation)
 
