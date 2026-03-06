@@ -1,7 +1,7 @@
 # Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
 This repository is the official implementation of *Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction*.
-[[Paper](https://arxiv.org/abs/2603.04846)]
+[[Paper](https://arxiv.org/abs/2603.04839)]
 
 
 <div align="center">
