@@ -1,6 +1,8 @@
 # Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction
 
 This repository is the official implementation of *Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction*.
+[[Paper](https://arxiv.org/abs/2603.04846)]
+
 
 <div align="center">
     <img src="images/introduction.png" width="600px" />
@@ -20,6 +22,8 @@ This repository is the official implementation of *Towards Highly Transferable V
 
 ### 1. Install dependencies
 ```bash
+conda create -n SADCA python=3.10
+conda activate SADCA
 pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
@@ -124,13 +128,13 @@ Then combine adversarial text prompts and adversarial image to send LVLMs.
 ### 2. Visualization on Image Captioning and Visual Grounding
 
 <div align="left">
-    <img src="images/IC_VG.png" width="600px" />
+    <img src="images/IC_VG.png" width="400px" />
 </div>
 
 ### 3. Visualization on LVLMs
 
 <div align="left">
-    <img src="images/AE_for_LVLM.png" width="600px" />
+    <img src="images/AE_for_LVLM.png" width="800px" />
 </div>
 
 [//]: # (## Citation)
