@@ -137,21 +137,20 @@ Then combine adversarial text prompts and adversarial image to send LVLMs.
     <img src="images/AE_for_LVLM.png" width="800px" />
 </div>
 
-[//]: # (## Citation)
+## Acknowledgments
 
-[//]: # ()
-[//]: # (```)
+This project is built on [SA-AET](https://github.com/jiaxiaojunQAQ/SA-AET). We sincerely thank them for their outstanding work.
 
-[//]: # (@article{gao2024boosting,)
 
-[//]: # (  title={Boosting Transferability in Vision-Language Attacks via Diversification along the Intersection Region of Adversarial Trajectory},)
+## Citation
 
-[//]: # (  author={Gao, Sensen and Jia, Xiaojun and Ren, Xuhong and Tsang, Ivor and Guo, Qing},)
+```
 
-[//]: # (  journal={arXiv preprint arXiv:2403.12445},)
+@article{li2026towards,
+  title={Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction},
+  author={Li, Yuanbo and Xu, Tianyang and Hu, Cong and Zhou, Tao and Wu, Xiao-Jun and Kittler, Josef},
+  journal={arXiv preprint arXiv:2603.04839},
+  year={2026}
+}
 
-[//]: # (  year={2024})
-
-[//]: # (})
-
-[//]: # (```)
+```
