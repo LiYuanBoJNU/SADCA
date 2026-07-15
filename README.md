@@ -146,10 +146,11 @@ This project is built on [SA-AET](https://github.com/jiaxiaojunQAQ/SA-AET). We s
 
 ```
 
-@article{li2026towards,
+@inproceedings{li2026towards,
   title={Towards Highly Transferable Vision-Language Attack via Semantic-Augmented Dynamic Contrastive Interaction},
-  author={Li, Yuanbo and Xu, Tianyang and Hu, Cong and Zhou, Tao and Wu, Xiao-Jun and Kittler, Josef},
-  journal={arXiv preprint arXiv:2603.04839},
+  author={Li, Yuanbo and Xu, Tianyang and Hu, Cong and Zhou, Tao and Wu, Xiaojun and Kittler, Josef},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1493--1502},
   year={2026}
 }
 
